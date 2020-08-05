@@ -63,7 +63,7 @@ const Jobs = () => {
           }
         </article>
       </div>
-      <Link to='/about' className="btn center-btn">More info</Link>
+      <Link to='/about' aria-label="about" className="btn center-btn">More info</Link>
     </section>
   );
 };
