@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-      //  apiURL: process.env.GATSBY_API_URL ||`http://localhost:1337`,
-        apiURL: `https://strapi-potofolio.herokuapp.com`,
+        apiURL: process.env.GATSBY_API_URL ||`http://localhost:1337`,
+       // apiURL: `https://strapi-potofolio.herokuapp.com`,
         queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
           // singleType : [`about`],
